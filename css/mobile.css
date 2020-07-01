@@ -1,0 +1,54 @@
+#what .items {
+    display: block;
+
+}
+
+#what .items .item {
+    display: flex;
+    text-align: left;
+
+}
+
+#what .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+}
+
+#navbar {
+    flex-direction: column;
+}
+
+#who .who-text {
+    padding: 0;
+}
+
+#who .who-img {
+    display: none;
+}
+
+#clients .items div:last-child {
+    display: none;
+}
+
+#clients .items img {
+    width: 80%;
+}
+
+#contact {
+    flex-direction: column;
+}
+
+.map {
+    padding: 100px;
+}
+
+
+@media(max-height:586px) {
+    .l-heaading {
+        font-size: 3rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+}

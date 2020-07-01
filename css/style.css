@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: none;
+  text-decoration: none;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  outline: none;
+  /* border: 1px solid hotpink; */
+}
+
+
+.map {
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* See line 20 */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  /* For responsive images that adjust */
+  height: auto;
+  max-width: 100%;
+
+  /* This isn't needed, but as a user, I get frustrated when I highlight text and the image gets highlighted too */
+  user-select: none;
+}
+
+button {
+  color: inherit;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 1.25rem;
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: #93cb52;
+}
+
+.text-primary {
+  color: #93cb52;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li a {
+  margin: 0 0.25rem;
+  padding: 0.75rem;
+  color: #fff;
+}
+
+#navbar ul li a:hover {
+  background-color: #93cb52;
+  border-radius: 0.25rem;
+}
+
+#showcase {
+  background-image: url(../img/showcase.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.showcase-content {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin: 2rem;
+  line-height: 4rem;
+}
+
+.lead {
+  line-height: 2rem;
+  font-size: 1.3rem;
+  padding: 0 2rem;
+}
+
+.btn {
+  color: #fff;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+
+#showcase .btn {
+  background-color: #93cb52;
+  margin: 1rem;
+}
+
+.btn-dark {
+  display: block;
+  background-color: #333;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.m-heading {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.items {
+  display: flex;
+  margin: 1.5rem 0;
+  opacity: 0.8;
+}
+
+.item {
+  flex: 1;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.item .fas {
+  padding: 0.75rem;
+  background-color: #93cb52;
+  border-radius: 50%;
+}
+
+.item div {
+  margin: 0.75rem 0.25rem;
+}
+
+.item h3 {
+  margin-bottom: 1rem;
+}
+
+#who {
+  display: flex;
+  background-color: #333;
+}
+
+#who div {
+  flex: 1;
+}
+
+.who-img {
+  background: url(../img/people.jpg) no-repeat center center/cover;
+}
+
+.who-text {
+  margin: 2rem;
+  color: #fff;
+}
+
+#who .m-heading {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+#who h3 {
+  margin: 1rem 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgb(129, 129, 129, 0.1);
+}
+
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+
+#contact {
+  display: flex;
+  color: #fff;
+}
+
+#contact div {
+  flex: 1;
+}
+
+.contact-form .m-heading {
+  text-align: left;
+  padding: 1rem 0;
+}
+
+.form-group {
+  padding: 0 1rem;
+}
+
+.form-group textarea,
+.form-group input {
+  width: 100%;
+  padding: 0.25rem;
+}
+
+.form-group label {
+  width: 100%;
+  display: block;
+  margin: 0.25rem 0;
+}
